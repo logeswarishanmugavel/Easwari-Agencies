@@ -17,7 +17,7 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -176,12 +176,12 @@
       <updated>1491014183312</updated>
       <workItem from="1491014185099" duration="877000" />
       <workItem from="1491015174365" duration="238000" />
-      <workItem from="1491015437234" duration="1035000" />
+      <workItem from="1491015437234" duration="1169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2150000" />
+    <option name="totallyTimeSpent" value="2284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
