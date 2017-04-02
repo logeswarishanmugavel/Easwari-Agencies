@@ -18,6 +18,7 @@ body{
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
+    weight:100%;
     margin: auto;
 }
 
