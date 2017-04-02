@@ -58,33 +58,43 @@
             <div class="col-md-8">
                 <h3>Inquire us for details</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="control-group form-group">
+                    <div class="control-group form-group required">
                         <div class="controls">
-                            <label>Full Name:</label>
-                            <input type="text" class="form-control" ng-model = "info.fullname" id="fullname" required data-validation-required-message="Please enter your name.">
+                            <label class = "control-label">Full Name:</label>
+                            <input type="text" class="form-control" ng-model = "info.fullname" name="fullname">
+                            <span style="color:red" ng-show="sentMessage.fullname.$dirty && sentMessage.fullname.$invalid">
+                                <span ng-show="sentMessage.fullname.$error.required">Please Enter your name</span>
+                            </span>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Phone Number:</label>
-                            <input type="tel" class="form-control" ng-model = "info.phone" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <label class = "control-label">Phone Number:</label>
+                            <input type="tel" class="form-control" ng-model = "info.phone" name="phone">
                         </div>
                     </div>
-                    <div class="control-group form-group">
+                    <div class="control-group form-group required">
                         <div class="controls">
-                            <label>Email Address:</label>
-                            <input type="email" class="form-control" ng-model = "info.email" id="email" required data-validation-required-message="Please enter your email address.">
+                            <label class = "control-label">Email Address:</label>
+                            <input type="email" class="form-control" ng-model = "info.email" name="email">
+                            <span style="color:red" ng-show="sentMessage.email.$dirty && sentMessage.email.$invalid">
+                                <span ng-show="sentMessage.email.$error.required">Please Enter your email.</span>
+                                <span ng-show="sentMessage.email.$error.email">Invalid email address.</span>
+                            </span>
                         </div>
                     </div>
-                    <div class="control-group form-group">
+                    <div class="control-group form-group required">
                         <div class="controls">
-                            <label>Question</label>
-                            <textarea rows="10" cols="100" class="form-control" ng-model = "info.question" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                            <label class = "control-label">Question</label>
+                            <textarea rows="10" cols="100" class="form-control" ng-model = "info.question" name="question" maxlength="999" style="resize:none"></textarea>
+                            <span style="color:red" ng-show="sentMessage.question.$dirty && sentMessage.question.$invalid">
+                                <span ng-show="sentMessage.question.$error.required">Please Enter your query.</span>
+                            </span>
                         </div>
                     </div>
                     <div id="success"></div>
-                    <button type="submit" class="btn btn-primary" ng-click="addInquiry()">Send Message</button>
+                    <button type="submit" class="btn btn-primary" ng-disabled="sentMessage.fullname.$dirty && sentMessage.fullname.$invalid ||  sentMessage.email.$dirty && sentMessage.email.$invalid || sentMessage.question.$dirty && sentMessage.question.$invalid" ng-click="addInquiry()">Send Message</button>
                 </form>
             </div>
 
