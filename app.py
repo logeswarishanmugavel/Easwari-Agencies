@@ -1,10 +1,33 @@
-from flask import Flask, send_file
+from pymongo import MongoClient
+from bson.objectid import ObjectId
+from flask import Flask, send_file, jsonify, json, request
 
 app = Flask(__name__)
+
+client = MongoClient('localhost:27017');
+db = client.easwari
 
 @app.route("/")
 def index():
     return send_file("templates/index.html")
+
+@app.route("/getBookList",methods=['POST'])
+def getBookList():
+	print 'inside fn'
+	try:
+		books = db.BookList.find()
+
+		bookList = []
+		for book in books:
+			print book
+			bookItem = {
+				'name': book['BookName'],
+				'price': book['BookPrice']
+			}
+			bookList.append(bookItem)
+	except Exception,e:
+		return str(e)
+	return json.dumps(bookList)
 	
 if __name__ == "__main__":
     app.run(host='0.0.0.0')

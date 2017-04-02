@@ -1,10 +1,10 @@
 'use strict'; 
 
-var eaApp = angular.module('eaApp', [
+angular.module('eaApp', [
  'ngRoute',
-]);
-
-eaApp.config(['$routeProvider',
+ 'eaApp.booklist'
+ ]).
+config(['$routeProvider',
      function($routeProvider) {
          $routeProvider.
              when('/', {
