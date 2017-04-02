@@ -4,15 +4,26 @@
     	<title> Easwari Agencies </title>
     	<meta charset="utf-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Angular js-->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
 		<script src="http://code.angularjs.org/1.5.3/angular-route.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!--Bootstrap js-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!--Controllers-->
 		<script src="/static/js/app.js"></script>
-		<script src="/static/js/listcontroller.js"></script>
+		<script src="/static/js/ListController.js"></script>
+		<script src="/static/js/ContactController.js"></script>
+
+		<!--StyleSheets-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
 		<link rel="stylesheet" href="/static/css/style.css" />
-		 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'  type='text/css'>
+		
+		<!--Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'  type='text/css'>
+    
     </head>
 
     <body ng-app="eaApp">
@@ -29,16 +40,19 @@
 							<a class = "nav-link" href="/#/about/">About</a>
 						</li>
 						<li class = "nav-item">
-							<a class = "nav-link" href="/#/booklist/">Book List</a>
-						</li>
-						<li class = "nav-item">
 							<a class = "nav-link" href="/#/">Publishers</a>
 						</li>
 						<li class = "nav-item">
 							<a class = "nav-link" href="/#/">Special Editions</a>
 						</li>
 						<li class = "nav-item">
-							<a class = "nav-link" href="/#/">Contact</a>
+							<a class = "nav-link" href="/#/booklist/">Book List</a>
+						</li>
+						<li class = "nav-item">
+							<a class = "nav-link" href="/#/">Agency Application</a>
+						</li>
+						<li class = "nav-item">
+							<a class = "nav-link" href="/#/contact/">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -46,6 +60,8 @@
 
 		<div ng-view></div>
 		
+		<hr/>
+
 		<!--Footer-->
 		<footer class="company">
 			<p><center> &copy; Easwari Agencies, 2017.</center></p>
