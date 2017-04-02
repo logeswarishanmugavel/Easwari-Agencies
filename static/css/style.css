@@ -1,0 +1,23 @@
+body{
+	margin-top: 50px;
+	margin-left:50px;
+	margin-right:50px;
+	font-size: 20px; 
+}
+
+.company{
+	font-family: Lobster; 
+	font-size: 20px; 
+	text-color: green;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+}
+

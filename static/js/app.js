@@ -1,19 +1,19 @@
-'use strict';   // See note about 'use strict'; below
+'use strict'; 
 
 var eaApp = angular.module('eaApp', [
-    'ngRoute',
+ 'ngRoute',
 ]);
 
-myApp.config(['$routeProvider',
-    function($routeProvider) {
-        $routeProvider.
-        when('/', {
-            templateUrl: '/static/partials/index.html',
-        }).
-        when('/about', {
-            templateUrl: '../static/partials/about.html',
-        }).
-        otherwise({
-            redirectTo: '/'
-        });
+eaApp.config(['$routeProvider',
+     function($routeProvider) {
+         $routeProvider.
+             when('/', {
+                 templateUrl: '/static/partials/index.html',
+             }).
+             when('/about', {
+                 templateUrl: '../static/partials/about.html',
+             }).
+             otherwise({
+                 redirectTo: '/'
+             });
     }]);
