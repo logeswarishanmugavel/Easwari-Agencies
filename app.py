@@ -20,6 +20,11 @@ def getBookList():
 			bookItem = {
 				'bookid': book['BookID'],
 				'name': book['BookName'],
+				'freq': book['BookFrequency'],
+				'type': book['BookType'],
+				'lang': book['BookLanguage'],
+				'pubname': book['Publisher'],
+				'genre': book['Genre'],
 			}
 			bookList.append(bookItem)
 	except Exception,e:
@@ -49,23 +54,13 @@ def getBookListData():
 		return str(e)
 	return json.dumps(bookDetail)
 
-@app.route("/getPubList",methods=['POST'])
-def getPubList():
-	print 'inside pub fn'
+@app.route("/addapplication",methods=['POST'])
+def addapplication():
+	print 'inside add appl'
 	try:
-		pubs = db.PublishersList.find()
-
-		pubList = []
-		for pub in pubs:
-			print pub
-			pubItem = {
-				'name': pub['PubName'],
-				'icon': pub['PubIcon']
-			}
-			pubList.append(pubItem)
+		print 'hello'
 	except Exception,e:
-		return str(e)
-	return json.dumps(pubList)
+		return jsonify(status='ERROR',message=str(e))
 
 @app.route("/addInquiry",methods=['POST'])
 def addInquiry():
