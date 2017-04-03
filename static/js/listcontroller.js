@@ -11,6 +11,8 @@ angular.module('eaApp.booklist', ['ngRoute'])
 
 .controller('ListCtrl', function( $scope, $http ) {
     console.log('insideCtrl');
+    $scope.data = '';
+
     $scope.showlist = function(){
         $http({
             method: 'POST',
@@ -22,5 +24,20 @@ angular.module('eaApp.booklist', ['ngRoute'])
             console.log(error);
         });
     }
+
+    $scope.getdata = function(index){
+        $http({
+            method: 'POST',
+            url: '/getBookListData',
+            data: {id:index}
+        }).then(function(response) {
+            $scope.data = response['data'];
+            console.log($scope.data);
+            console.log(response);
+        }, function (error) {
+            console.log(error);
+        });
+    }
+
     $scope.showlist();
 });

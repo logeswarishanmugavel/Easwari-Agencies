@@ -2,8 +2,9 @@
 
 angular.module('eaApp', [
  'ngRoute',
+ 'eaApp.publist',
  'eaApp.booklist',
- 'eaApp.contact'
+ 'eaApp.contact',
  ]).
 config(['$routeProvider',
      function($routeProvider) {

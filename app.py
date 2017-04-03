@@ -13,21 +13,59 @@ def index():
 
 @app.route("/getBookList",methods=['POST'])
 def getBookList():
-	print 'inside fn'
 	try:
 		books = db.BookList.find()
-
 		bookList = []
 		for book in books:
-			print book
 			bookItem = {
+				'bookid': book['BookID'],
 				'name': book['BookName'],
-				'price': book['BookPrice']
 			}
 			bookList.append(bookItem)
 	except Exception,e:
 		return str(e)
 	return json.dumps(bookList)
+
+
+@app.route('/getBookListData',methods=['POST'])
+def getBookListData():
+	print 'inside detail fn'
+	try:
+		bookid = request.json['id']
+		print bookid
+		book = db.BookList.find_one({'BookID':bookid})
+		bookDetail = {
+			'name': book['BookName'],
+			'price': book['BookPrice'],
+			'freq': book['BookFrequency'],
+			'type': book['BookType'],
+			'lang': book['BookLanguage'],
+			'pubname': book['Publisher'],
+			'desc': book['BookDescription'],
+			'genre': book['Genre'],
+			'photo': book['Photo'],
+		}
+	except Exception,e:
+		return str(e)
+	return json.dumps(bookDetail)
+
+@app.route("/getPubList",methods=['POST'])
+def getPubList():
+	print 'inside pub fn'
+	try:
+		pubs = db.PublishersList.find()
+
+		pubList = []
+		for pub in pubs:
+			print pub
+			pubItem = {
+				'name': pub['PubName'],
+				'icon': pub['PubIcon']
+			}
+			pubList.append(pubItem)
+	except Exception,e:
+		return str(e)
+	return json.dumps(pubList)
 
 @app.route("/addInquiry",methods=['POST'])
 def addInquiry():

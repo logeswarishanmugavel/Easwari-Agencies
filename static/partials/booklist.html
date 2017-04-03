@@ -1,24 +1,60 @@
-<div ng-controller = "ListCtrl" class="bs-example" data-example-id="panel-without-body-with-table">
-            <div class="panel panel-default">
-                <div class="panel-heading">Book list</div>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Book Name</th>
-                            <th>Price</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr ng-repeat="book in books track by $index">
-                            <th scope="row">{{ $index+1 }}</th>
-                            <td>{{ book.name }}</td>
-                            <td>{{ book.price }}</td>
-                        </tr>
-                       
-                    </tbody>
-                </table>
+<div ng-controller = "ListCtrl">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Our Complete list of titles</h1>
+                <ol class="breadcrumb">
+                    <li><a href="/#/">Home</a>
+                    </li>
+                    <li class="active">Book List</li>
+                </ol>
             </div>
         </div>
+        
+        <div class = "container">
+            <div class = "row">
+                
+                <div class="list-group col-sm-6">
+                    <button type="button" class="list-group-item" ng-repeat = "book in books" ng-click = "getdata(book.bookid)">
+                        {{ book.name }}
+                    </button>
+                </div>
 
-    </div>
+                <div class="col-sm-6">
+                    <div class = "row">
+                        <img src = "{{data.photo}}"><h1> Rs. {{ data.price }} /- </h1></img>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-sm-3">Name: </div>
+                        <div class = "col-sm-8">{{ data.name }}</div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-sm-3">Genre: </div>
+                        <div class = "col-sm-8">{{ data.genre }}</div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-sm-3">Frequency: </div>
+                        <div class = "col-sm-8">{{ data.freq }}</div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-sm-3">Type: </div>
+                        <div class = "col-sm-8">{{ data.type }}</div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-sm-3">Language: </div>
+                        <div class = "col-sm-8">{{ data.lang }}</div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-sm-3">Publisher: </div>
+                        <div class = "col-sm-8">{{ data.pubname }}</div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-sm-3">Description: </div>
+                        <div class = "col-sm-8">{{ data.desc }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+</div>
