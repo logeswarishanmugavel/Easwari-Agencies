@@ -17,16 +17,16 @@
             <div class = "row">
                 
                 <div class="list-group col-sm-6">
-                    <input type = "text" class = "form-control" style = "font-size: 20px; padding: 10px" placeholder="Search By Title" ng-model="searchBox">
+                    <input type = "text" class = "form-control" style = "font-size: 20px; font-family: times; padding: 10px" placeholder="Search By Title" ng-model="searchBox">
                     <br>
                     <button type="button" class="list-group-item" ng-repeat = "book in books | filter:searchBox | orderBy:'name' " ng-click = "getdata(book.bookid)">
                         {{ book.name }}
                     </button>
                 </div>
 
-                <div class="col-sm-6" style="padding-left: 25px" ng-show="bookdetails">
+                <div class="col-sm-6" style="padding-left: 25px; font-family: times" ng-show="bookdetails">
                     <div class = "row">
-                        <img src = "{{data.photo}}"><h1> Rs. {{ data.price }} /- </h1></img>
+                        <img src = "{{data.photo}}" alt ="{{ data.name }}" height="320" width="280"><h1> Rs. {{ data.price }} /- </h1></img>
                     </div>
                     <div class = "row">
                         <div class = "col-sm-3">Name: </div>
@@ -51,10 +51,6 @@
                     <div class = "row">
                         <div class = "col-sm-3">Publisher: </div>
                         <div class = "col-sm-8">{{ data.pubname }}</div>
-                    </div>
-                    <div class = "row">
-                        <div class = "col-sm-3">Description: </div>
-                        <div class = "col-sm-8">{{ data.desc }}</div>
                     </div>
                 </div>
             </div>

@@ -48,7 +48,6 @@ def getBookListData():
 			'type': book['BookType'],
 			'lang': book['BookLanguage'],
 			'pubname': book['Publisher'],
-			'desc': book['BookDescription'],
 			'genre': book['Genre'],
 			'photo': book['Photo'],
 		}

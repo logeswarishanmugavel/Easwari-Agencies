@@ -1,5 +1,360 @@
-{ "BookID": "book1", "BookName": "COMPETITION SUCCESS REVIEW", "BookFrequency": "MONTHLY", "BookPrice": 75, "BookType": "Magazines", "BookLanguage": "English", "PublisherID": "pub1", "Publisher": "Competition Review", "Book Description": "" }
-{ "BookID": "book2", "BookName": "BUSINESS INDIA", "BookFrequency": "FORTNIGHTLY", "BookPrice": 30, "BookType": "Magazines", "BookLanguage": "English", "PublisherID": "pub2", "Publisher": "Business India Publications", "Book Description": "" }
-{ "BookID": "book3", "BookName": "KERALASABDAM", "BookFrequency": "WEEKLY", "BookPrice": 15, "BookType": "Magazines", "BookLanguage": "Malayalam", "PublisherID": "pub3", "Publisher": "KunkumamDistributors", "Book Description": "" }
-{ "BookID": "book4", "BookName": "MADHA JOTHIDAM ", "BookFrequency": "MONTHLY", "BookPrice": 20, "BookType": "Magazines", "BookLanguage": "Tamil", "PublisherID": "pub4", "Publisher": "Madha Jothidam Publications", "Book Description": "" }
-{ "BookID": "book5", "BookName": "ASSIGNMENTS", "BookFrequency": "WEEKLY", "BookPrice": 8, "BookType": "Newspaper", "BookLanguage": "English", "PublisherID": "pub5", "Publisher": "Aishwarya Publications", "Book Description": "" }
+{ "BookID": "book1", "BookName": "Arts India", "BookFrequency": "By Monthly", "BookPrice": "200.00", "BookType": "Magazine", "BookLanguage": "English", "Publisher": "IBH BOOKS & MAGAZINES PVT LTD", "Genre": "Design", "Photo": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiqh8eUxYrTAhUq9YMKHb69AkQQjRwIBw&url=http%3A%2F%2Fwww.iconsdb.com%2Fwhite-icons%2Fsearch-3-icon.html&bvm=bv.151426398,d.amc&psig=AFQjCNF7Q23Jave6v86WGNf8ogYcF1opkg&ust=1491386327352628" }
+{ "BookID": "book2", "BookName": "Creative Image", "BookFrequency": "By Monthly", "BookPrice": "250.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book3", "BookName": "The Equator Line", "BookFrequency": "By Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book4", "BookName": "The Global Gujarati(G2)", "BookFrequency": "By Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book5", "BookName": "Iq (The Indian Quarterly)", "BookFrequency": "By Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book6", "BookName": "Lenin Media", "BookFrequency": "By Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book7", "BookName": "Marwar", "BookFrequency": "By Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book8", "BookName": "Olm Finance Manual", "BookFrequency": "By Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book9", "BookName": "Parentedge", "BookFrequency": "By Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book10", "BookName": "Pure & Eco India", "BookFrequency": "By Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book11", "BookName": "The Smart Manager ", "BookFrequency": "By Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book12", "BookName": "Sylyan World", "BookFrequency": "By Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book13", "BookName": "Veedum Planum(Malayalam)", "BookFrequency": "By Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book14", "BookName": "Vn Pachakam  (Malayalam)", "BookFrequency": "By Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book15", "BookName": "World Of Business", "BookFrequency": "By Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book16", "BookName": "Tamilarasiyal (Tamil)", "BookFrequency": "By Weekly", "BookPrice": "12.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book17", "BookName": "Manorama Daily", "BookFrequency": "Daily", "BookPrice": "6.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book18", "BookName": "Sunday Manorama Express", "BookFrequency": "Daily", "BookPrice": "6.50", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book19", "BookName": "Business India", "BookFrequency": "Fornightly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book20", "BookName": "Business Economics", "BookFrequency": "Fornightly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book21", "BookName": "Business Economics", "BookFrequency": "Fornightly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book22", "BookName": "Capital Market", "BookFrequency": "Fornightly", "BookPrice": "75.00", "BookType": "Magazine", "BookLanguage": "English", "Publisher": "CAPITAL MARKET PUBLISHERS INDIA PVT LTD", "Genre": "Share Market", "Photo": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjqju_qxIrTAhWo7IMKHS-IAFcQjRwIBw&url=http%3A%2F%2Fmagazines.themediabazaar.com%2F2013%2F10%2Fbusiness-magazines-india%2F&bvm=bv.151426398,d.amc&psig=AFQjCNEO5pupTtIhNHhSe0feEqhKRv6vrA&ust=1491386240161611" }
+{ "BookID": "book23", "BookName": "Data Quest", "BookFrequency": "Fornightly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book24", "BookName": "Dalal Street", "BookFrequency": "Fornightly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book25", "BookName": "Femina", "BookFrequency": "Fornightly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book26", "BookName": "Fire (Malayalam)", "BookFrequency": "Fornightly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book27", "BookName": "Jyothishabooshanam (Malayalam)", "BookFrequency": "Fornightly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book28", "BookName": "Jyothisharatnam (Malayalam)", "BookFrequency": "Fornightly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book29", "BookName": "Kannyaka (Malayalam)", "BookFrequency": "Fornightly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book30", "BookName": "Magicpot", "BookFrequency": "Fornightly", "BookPrice": "15.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book31", "BookName": "Money Life", "BookFrequency": "Fornightly", "BookPrice": "45.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book32", "BookName": "Outlook Business", "BookFrequency": "Fornightly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book33", "BookName": "Outlook Money", "BookFrequency": "Fornightly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book34", "BookName": "Vanitha (Malayalam)", "BookFrequency": "Fornightly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book35", "BookName": "Autocar", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "Magazine", "BookLanguage": "English", "Publisher": "HAYMARKET SAC", "Genre": "AutoMobile", "Photo": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj7uJ3QxIrTAhUl9YMKHbfwAtMQjRwIBw&url=http%3A%2F%2Fwww.latestfreestuff.co.uk%2Ffree-autocar-magazine%2F&psig=AFQjCNESzUvqkm5tayDFa_0posgwAsGkTQ&ust=1491386166713451" }
+{ "BookID": "book36", "BookName": "Abraxas", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book37", "BookName": "Ack Bagat Singh", "BookFrequency": "Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book38", "BookName": "Ack Budha", "BookFrequency": "Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book39", "BookName": "Ack Gold Coins", "BookFrequency": "Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book40", "BookName": "Ack Jhonsi", "BookFrequency": "Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book41", "BookName": "Ack Magic Fantacy", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book42", "BookName": "Ack Shikari Shambu", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book43", "BookName": "Ack Shiva", "BookFrequency": "Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book44", "BookName": "Ack Son Of Rama", "BookFrequency": "Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book45", "BookName": "Ack Tagore", "BookFrequency": "Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book46", "BookName": "Ack Tantri Mantri-2", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book47", "BookName": "Ack Tantri Mantri-3", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book48", "BookName": "Ack Tenali", "BookFrequency": "Monthly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book49", "BookName": "Active Kids", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book50", "BookName": "Adorn", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book51", "BookName": "Autocar Professional", "BookFrequency": "Monthly", "BookPrice": "80.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book52", "BookName": "Arogyamangalam (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book53", "BookName": "Arogya Sanjavni (Hindi)", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book54", "BookName": "Arts Illustrated", "BookFrequency": "Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book55", "BookName": "Asian Photography", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book56", "BookName": "Auto Components", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book57", "BookName": "Ayurarogym (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book58", "BookName": "Ayurved Sutra", "BookFrequency": "Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book59", "BookName": "Ayurvedha", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book60", "BookName": "B For Building  (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book61", "BookName": "B S Motoring", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book62", "BookName": "Better Interiors", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book63", "BookName": "Bike", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book64", "BookName": "Billoos Digest", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book65", "BookName": "Biology Today", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book66", "BookName": "Booking Charges", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book67", "BookName": "Business Plus  (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book68", "BookName": "Corporate Citizen", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book69", "BookName": "Current Affairs Survey", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book70", "BookName": "Car India", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book71", "BookName": "Chemistry Today", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book72", "BookName": "Chacha Choudary Digest ", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book73", "BookName": "Cine Blitz", "BookFrequency": "Monthly", "BookPrice": "70.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book74", "BookName": "Cine Blitz (Hindi)", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book75", "BookName": "Civil Service Times", "BookFrequency": "Monthly", "BookPrice": "135.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book76", "BookName": "Competition Power", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book77", "BookName": "Computer Ulagam (Tamil)", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book78", "BookName": "Cricket Today (English)", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book79", "BookName": "Cricket Today (Hindi)", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book80", "BookName": "Competition Success Review", "BookFrequency": "Monthly", "BookPrice": "75.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book81", "BookName": "Cv(Commercial Vehicle)", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book82", "BookName": "Diamond Current Affairs", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book83", "BookName": "Diamond Current Affairs (Hindi)", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book84", "BookName": "Dalal Times", "BookFrequency": "Monthly", "BookPrice": "75.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book85", "BookName": "Delivery Charge", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book86", "BookName": "Designer Details ", "BookFrequency": "Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book87", "BookName": "Designer (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book88", "BookName": "Diabetes Health", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book89", "BookName": "Digit", "BookFrequency": "Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book90", "BookName": "Digit", "BookFrequency": "Monthly", "BookPrice": "120.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book91", "BookName": "Disney Princess", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book92", "BookName": "Domus", "BookFrequency": "Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book93", "BookName": "Billoos Cycle", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book94", "BookName": "Choudary Big Head", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book95", "BookName": "Billoos Birthday", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book96", "BookName": "Billoos Coconut Tree", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book97", "BookName": "Pinki Computer Virus", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book98", "BookName": "Billoos Captain Of Cricket", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book99", "BookName": "Choudary Fake Currency", "BookFrequency": "Monthly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book100", "BookName": "Choudary Foot Ball ", "BookFrequency": "Monthly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book101", "BookName": "Pinki Gennie", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book102", "BookName": "Billos Girl Friend", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book103", "BookName": "Pinki Hairy Uncle", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book104", "BookName": "Pinki Height", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book105", "BookName": "Choudary Hitech", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book106", "BookName": "Choudary Jibrano", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book107", "BookName": "Pinki Laptop", "BookFrequency": "Monthly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book108", "BookName": "Choudary Mr X", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book109", "BookName": "Pinki Muchchad", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book110", "BookName": "Choudary Professor", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book111", "BookName": "Billoos Short Break", "BookFrequency": "Monthly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book112", "BookName": "Electronics For You", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book113", "BookName": "Electronics For You Plus", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book114", "BookName": "Open Source", "BookFrequency": "Monthly", "BookPrice": "120.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book115", "BookName": "Elle", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book116", "BookName": "Elle Decor", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book117", "BookName": "Ente Bhavanam (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book118", "BookName": "Engineering Success Review", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book119", "BookName": "Evo India", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book120", "BookName": "Exhibit", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book121", "BookName": "Extra Reader", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book122", "BookName": "Fast Bikes India", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book123", "BookName": "Fast Track", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book124", "BookName": "Fortune India", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book125", "BookName": "Filmfare", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book126", "BookName": "Finapolis", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book127", "BookName": "Fitness Energy", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book128", "BookName": "Food & Wine", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book129", "BookName": "Fortune Asia", "BookFrequency": "Monthly", "BookPrice": "220.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book130", "BookName": "Fountain Ink", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book131", "BookName": "Genius Punnagai", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book132", "BookName": "Gk Today", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book133", "BookName": "Grahalakshmi (Hindi)", "BookFrequency": "Monthly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book134", "BookName": "Hasya Kairali  (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "10.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book135", "BookName": "Hair", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book136", "BookName": "Haute & Brides", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book137", "BookName": "Health & Nutrition", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book138", "BookName": "The Health Planters", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book139", "BookName": "Heart Fulness", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book140", "BookName": "Hi Blitz", "BookFrequency": "Monthly", "BookPrice": "120.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book141", "BookName": "Higher Education", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book142", "BookName": "Home Maker (Hindi)", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book143", "BookName": "Home Review", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book144", "BookName": "Ideal Home", "BookFrequency": "Monthly", "BookPrice": "120.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book145", "BookName": "Indian Management ", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book146", "BookName": "Inside Outside", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book147", "BookName": "Kerala Frame", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book148", "BookName": "Kids Punnagai", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book149", "BookName": "Kloud 9", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book150", "BookName": "Knowledge Quest", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book151", "BookName": "Kunkumam (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "15.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book152", "BookName": "Libas", "BookFrequency": "Monthly", "BookPrice": "550.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book153", "BookName": "Livingetc", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book154", "BookName": "Luxury Collection", "BookFrequency": "Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book155", "BookName": "Mahindra Current Affairs", "BookFrequency": "Monthly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book156", "BookName": "Madha Jothidam (Tamil)", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book157", "BookName": "Magicpot Coloring", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book158", "BookName": "Mahilaratnam (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book159", "BookName": "Marg", "BookFrequency": "Monthly", "BookPrice": "350.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book160", "BookName": "Mathematics Today", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book161", "BookName": "Design Matrix", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book162", "BookName": "Mens World", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book163", "BookName": "Meri Saheli (Hindi)", "BookFrequency": "Monthly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book164", "BookName": "Mother & Baby", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book165", "BookName": "Motherland", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book166", "BookName": "Manorama Arokyam (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book167", "BookName": "Mr Traveller", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book168", "BookName": "Muhoortham (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book169", "BookName": "Mutual Funds", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book170", "BookName": "My Mobile", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book171", "BookName": "National Geography", "BookFrequency": "Monthly", "BookPrice": "295.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book172", "BookName": "New Woman", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book173", "BookName": "National Geography Kids", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book174", "BookName": "Ng Traveller", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book175", "BookName": "Outlook (Hindi)", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book176", "BookName": "Oli Vilakku", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book177", "BookName": "Outlook Traveller", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book178", "BookName": "Olt Luxe", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book179", "BookName": "Overdrive", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book180", "BookName": "Power Learning", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book181", "BookName": "Power Learning (Hindi)", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book182", "BookName": "Parent Circle", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book183", "BookName": "Pc Quest", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book184", "BookName": "Physics For You", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book185", "BookName": "Pinki Degest", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book186", "BookName": "Pointout", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book187", "BookName": "Popular Science", "BookFrequency": "Monthly", "BookPrice": "120.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book188", "BookName": "Power Watch", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book189", "BookName": "Provoke Life Style", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book190", "BookName": "Provoke Lifestyle", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book191", "BookName": "Rajayogam (Tamil)", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book192", "BookName": "Rolling Stone", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book193", "BookName": "Santuary Asia", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book194", "BookName": "Star Dust", "BookFrequency": "Monthly", "BookPrice": "75.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book195", "BookName": "Star Teller", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book196", "BookName": "Sadnapath (Hindi)", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book197", "BookName": "Safety Messanger", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book198", "BookName": "Sambathyam (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book199", "BookName": "Save Us", "BookFrequency": "Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book200", "BookName": "Savvy", "BookFrequency": "Monthly", "BookPrice": "75.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book201", "BookName": "Society Interiors", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book202", "BookName": "Smart Life", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book203", "BookName": "Society", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book204", "BookName": "Smart Photography", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book205", "BookName": "Star Champions", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book206", "BookName": "Star Champions", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book207", "BookName": "Star Children", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book208", "BookName": "Star Childrens", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book209", "BookName": "Star Dust (Hindi)", "BookFrequency": "Monthly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book210", "BookName": "Startup", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book211", "BookName": "Stayfit", "BookFrequency": "Monthly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book212", "BookName": "Stuff India", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book213", "BookName": "Suppandi 3", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book214", "BookName": "Surfaces Reporter", "BookFrequency": "Monthly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book215", "BookName": "Swarajya", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book216", "BookName": "Swati Monthly(Telugu)", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book217", "BookName": "T3", "BookFrequency": "Monthly", "BookPrice": "120.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book218", "BookName": "Tell Me Why", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book219", "BookName": "The Man", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book220", "BookName": "Tingle Double Digest", "BookFrequency": "Monthly", "BookPrice": "120.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book221", "BookName": "Tingle Single Digest", "BookFrequency": "Monthly", "BookPrice": "70.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book222", "BookName": "Tinkle", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book223", "BookName": "Tinkle Star (Tamil)", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book224", "BookName": "Tintumon(Malayalam)", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book225", "BookName": "Toms Classics(Malayalam)", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book226", "BookName": "Toms Magazines Spl (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book227", "BookName": "Top Gear", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book228", "BookName": "Uday India", "BookFrequency": "Monthly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book229", "BookName": "Unni & Mandoos(Malayalam)", "BookFrequency": "Monthly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book230", "BookName": "Upper Crust", "BookFrequency": "Monthly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book231", "BookName": "Urban Vastu", "BookFrequency": "Monthly", "BookPrice": "75.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book232", "BookName": "Vanitha Veedu (Malayalam)", "BookFrequency": "Monthly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book233", "BookName": "Verve", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book234", "BookName": "Vivaha", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book235", "BookName": "Vn Wedding", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book236", "BookName": "Voice & Data", "BookFrequency": "Monthly", "BookPrice": "75.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book237", "BookName": "Women Exclusive", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book238", "BookName": "Watch Time", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book239", "BookName": "Whatcar", "BookFrequency": "Monthly", "BookPrice": "80.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book240", "BookName": "Wealth Insight", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book241", "BookName": "Wedding Affair", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book242", "BookName": "Wedding Vows", "BookFrequency": "Monthly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book243", "BookName": "What Hi Fi", "BookFrequency": "Monthly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book244", "BookName": "Whispers Corridors", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book245", "BookName": "World Travel", "BookFrequency": "Monthly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book246", "BookName": "Yatralekha", "BookFrequency": "Monthly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book247", "BookName": "Youth Incorporated", "BookFrequency": "Monthly", "BookPrice": "75.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book248", "BookName": "Assignments", "BookFrequency": "Weekly", "BookPrice": "10.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book249", "BookName": "Business World", "BookFrequency": "Weekly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book250", "BookName": "Cinema Mangalam (Malayalam)", "BookFrequency": "Weekly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book251", "BookName": "Kalakamudi (Malayalam)", "BookFrequency": "Weekly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book252", "BookName": "Kerala Sapdam (Malayalam)", "BookFrequency": "Weekly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book253", "BookName": "Kalichipu (Malayalam)", "BookFrequency": "Weekly", "BookPrice": "10.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book254", "BookName": "Mangalam (Malayalam)", "BookFrequency": "Weekly", "BookPrice": "10.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book255", "BookName": "Money Times", "BookFrequency": "Weekly", "BookPrice": "18.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book256", "BookName": "Manorama Weekly (Malayalam)", "BookFrequency": "Weekly", "BookPrice": "8.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book257", "BookName": "Nana (Malayalam)", "BookFrequency": "Weekly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book258", "BookName": "Nri Times", "BookFrequency": "Weekly", "BookPrice": "6.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book259", "BookName": "Open", "BookFrequency": "Weekly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book260", "BookName": "Outlook", "BookFrequency": "Weekly", "BookPrice": "60.00", "BookType": "Magazine", "BookLanguage": "English", "Publisher": "OUTLOOK PUBLISHING (I) PVT LTD", "Genre": "Politics", "Photo": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi0kdqfxIrTAhVozlQKHa9OBDoQjRwIBw&url=http%3A%2F%2Fwww.ndtv.com%2Findia-news%2Fwhos-the-under-achiever-now-outlook-magazine-gives-obama-the-title-493407&bvm=bv.151426398,d.cGw&psig=AFQjCNEtqMpRFQhafUJXwwgD6BSMTYq-PQ&ust=1491386080743552" }
+{ "BookID": "book261", "BookName": "Santhosham (Telugu)", "BookFrequency": "Weekly", "BookPrice": "10.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book262", "BookName": "Swathi (Telugu)", "BookFrequency": "Weekly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book263", "BookName": "Vellinakshatram (M)", "BookFrequency": "Weekly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book264", "BookName": "The Week", "BookFrequency": "Weekly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book265", "BookName": "Ack Agastya", "BookFrequency": "Yearly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book266", "BookName": "Ack Kabir", "BookFrequency": "Yearly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book267", "BookName": "Ack Rana Pratap", "BookFrequency": "Yearly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book268", "BookName": "Ack Talking Bird", "BookFrequency": "Yearly", "BookPrice": "99.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book269", "BookName": "Bw Hotelier", "BookFrequency": "Yearly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book270", "BookName": "Bw Restore", "BookFrequency": "Yearly", "BookPrice": "296.25", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book271", "BookName": "Bw Smart Cities", "BookFrequency": "Yearly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book272", "BookName": "Bw Sme White Book", "BookFrequency": "Yearly", "BookPrice": "499.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book273", "BookName": "Contemporary Issues", "BookFrequency": "Yearly", "BookPrice": "595.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book274", "BookName": "Csr (Mba)", "BookFrequency": "Yearly", "BookPrice": "220.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book275", "BookName": "Csr Career Almanac", "BookFrequency": "Yearly", "BookPrice": "295.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book276", "BookName": "Csr Careers & Courses", "BookFrequency": "Yearly", "BookPrice": "195.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book277", "BookName": "Csr Csat", "BookFrequency": "Yearly", "BookPrice": "195.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book278", "BookName": "Csr Current Affairs", "BookFrequency": "Yearly", "BookPrice": "180.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book279", "BookName": "Csr Directory Of Engineering ", "BookFrequency": "Yearly", "BookPrice": "225.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book280", "BookName": "Csr Engg", "BookFrequency": "Yearly", "BookPrice": "225.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book281", "BookName": "Csr General Knowledge", "BookFrequency": "Yearly", "BookPrice": "140.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book282", "BookName": "Csr General Studies", "BookFrequency": "Yearly", "BookPrice": "240.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book283", "BookName": "Csr Hotel Management", "BookFrequency": "Yearly", "BookPrice": "195.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book284", "BookName": "Csr Indian Economy", "BookFrequency": "Yearly", "BookPrice": "240.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book285", "BookName": "Csr Year Book", "BookFrequency": "Yearly", "BookPrice": "360.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book286", "BookName": "D-Current Affairs", "BookFrequency": "Yearly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book287", "BookName": "D-Current Affairs Manual 2016", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book288", "BookName": "D-English Grammer", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book289", "BookName": "D-Facts Compendium G K", "BookFrequency": "Yearly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book290", "BookName": "D-G K Information Capslue", "BookFrequency": "Yearly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book291", "BookName": "D-Sbi Clerk Mains", "BookFrequency": "Yearly", "BookPrice": "140.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book292", "BookName": "D-Sbi Po (Preliminary Exams)", "BookFrequency": "Yearly", "BookPrice": "140.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book293", "BookName": "D-Ssc English & Comprehension", "BookFrequency": "Yearly", "BookPrice": "410.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book294", "BookName": "D-Ssc Numerical Ability", "BookFrequency": "Yearly", "BookPrice": "320.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book295", "BookName": "Diabities Typr 1 & 2", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book296", "BookName": "Efy Industry Directory", "BookFrequency": "Yearly", "BookPrice": "1,000.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book297", "BookName": "Exhibit 100", "BookFrequency": "Yearly", "BookPrice": "75.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book298", "BookName": "Foreign Policy Of India", "BookFrequency": "Yearly", "BookPrice": "595.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book299", "BookName": "Geography India & The World", "BookFrequency": "Yearly", "BookPrice": "425.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book300", "BookName": "Good Goverance", "BookFrequency": "Yearly", "BookPrice": "295.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book301", "BookName": "Guru Perchy", "BookFrequency": "Yearly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book302", "BookName": "Horoscope", "BookFrequency": "Yearly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book303", "BookName": "How To Stop Worrying", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book304", "BookName": "How To Win Friends", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book305", "BookName": "Ibps Computer & Marketing", "BookFrequency": "Yearly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book306", "BookName": "Ibps English", "BookFrequency": "Yearly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book307", "BookName": "Ibps General Awareness", "BookFrequency": "Yearly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book308", "BookName": "Ibps Quanntitative Aptitude", "BookFrequency": "Yearly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book309", "BookName": "Ibps Reasoning", "BookFrequency": "Yearly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book310", "BookName": "Roots Of Indian Caste System", "BookFrequency": "Yearly", "BookPrice": "195.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book311", "BookName": "Indian Economy", "BookFrequency": "Yearly", "BookPrice": "425.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book312", "BookName": "Indian Governments & Politics", "BookFrequency": "Yearly", "BookPrice": "395.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book313", "BookName": "Indian History", "BookFrequency": "Yearly", "BookPrice": "395.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book314", "BookName": "Efy Industry Directory", "BookFrequency": "Yearly", "BookPrice": "1,000.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book315", "BookName": "K K Onam Spcl", "BookFrequency": "Yearly", "BookPrice": "70.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book316", "BookName": "The Lead Stars", "BookFrequency": "Yearly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book317", "BookName": "M M Calendar(Malayalam)", "BookFrequency": "Yearly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book318", "BookName": "Mangalam Onam Special (Malayalam)", "BookFrequency": "Yearly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book319", "BookName": "Madha Jothidam Special (Tamil)", "BookFrequency": "Yearly", "BookPrice": "70.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book320", "BookName": "Madhar Boomi(M)", "BookFrequency": "Yearly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book321", "BookName": "Mca Bank Po", "BookFrequency": "Yearly", "BookPrice": "175.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book322", "BookName": "Mca Clerk", "BookFrequency": "Yearly", "BookPrice": "175.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book323", "BookName": "Mca Half-Yearly", "BookFrequency": "Yearly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book324", "BookName": "Mca Sbi", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book325", "BookName": "Mca Online Test Card", "BookFrequency": "Yearly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book326", "BookName": "Manorama Calendar Malayalam", "BookFrequency": "Yearly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book327", "BookName": "Mr Onam Special  (Malayalam)", "BookFrequency": "Yearly", "BookPrice": "70.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book328", "BookName": "Mr Panchangam (Malayalam)", "BookFrequency": "Yearly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book329", "BookName": "Mr Year Book (English)", "BookFrequency": "Yearly", "BookPrice": "300.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book330", "BookName": "Mr Year Book (Tamil)", "BookFrequency": "Yearly", "BookPrice": "160.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book331", "BookName": "Muhoortham Panchangam  (Malayalam)", "BookFrequency": "Yearly", "BookPrice": "60.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book332", "BookName": "Outlook Turning Points", "BookFrequency": "Yearly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book333", "BookName": "Outlook Traveller Special", "BookFrequency": "Yearly", "BookPrice": "50.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book334", "BookName": "Parpidam", "BookFrequency": "Yearly", "BookPrice": "40.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book335", "BookName": "Ragu Peyarchi", "BookFrequency": "Yearly", "BookPrice": "25.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book336", "BookName": "Sai Spiritual Mystic", "BookFrequency": "Yearly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book337", "BookName": "Savvy Spcl", "BookFrequency": "Yearly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book338", "BookName": "Science & Technology", "BookFrequency": "Yearly", "BookPrice": "595.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book339", "BookName": "Star Dust Year Book", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book340", "BookName": "Society Interior Spcl", "BookFrequency": "Yearly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book341", "BookName": "Guruperchy Attai", "BookFrequency": "Yearly", "BookPrice": "5.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book342", "BookName": "Sm Ragu Peyarchi", "BookFrequency": "Yearly", "BookPrice": "6.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book343", "BookName": "Society Anual", "BookFrequency": "Yearly", "BookPrice": "100.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book344", "BookName": "Song Of Surrender", "BookFrequency": "Yearly", "BookPrice": "400.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book345", "BookName": "Star Dust Anual", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book346", "BookName": "Strategy Of Life", "BookFrequency": "Yearly", "BookPrice": "200.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book347", "BookName": "Mangalam Sudarsanam(E)", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book348", "BookName": "Suppandi #1", "BookFrequency": "Yearly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book349", "BookName": "Suppandi #2", "BookFrequency": "Yearly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book350", "BookName": "Suppandi #3", "BookFrequency": "Yearly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book351", "BookName": "Suppandi #4", "BookFrequency": "Yearly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book352", "BookName": "Suppandi #5", "BookFrequency": "Yearly", "BookPrice": "125.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book353", "BookName": "Suppandi Saahasangal(T)", "BookFrequency": "Yearly", "BookPrice": "80.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book354", "BookName": "Toms Magazine (Malayalam)", "BookFrequency": "Yearly", "BookPrice": "20.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book355", "BookName": "Unique Civil India 2016", "BookFrequency": "Yearly", "BookPrice": "239.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book356", "BookName": "Under World", "BookFrequency": "Yearly", "BookPrice": "150.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book357", "BookName": "Velli Celebration  (Malayalam)", "BookFrequency": "Yearly", "BookPrice": "35.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book358", "BookName": "Vishukani  (Malayalam)", "BookFrequency": "Yearly", "BookPrice": "30.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book359", "BookName": "Wedding Vows Special", "BookFrequency": "Yearly", "BookPrice": "250.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
+{ "BookID": "book360", "BookName": "World History", "BookFrequency": "Yearly", "BookPrice": "295.00", "BookType": "", "BookLanguage": "", "Publisher": "", "Genre": "", "Photo": "" }
