@@ -15,6 +15,9 @@ config(['$routeProvider',
              when('/about', {
                  templateUrl: '../static/partials/about.html',
              }).
+             when('/publishers', {
+                 templateUrl: '../static/partials/publishers.html',
+             }).
              otherwise({
                  redirectTo: '/'
              });

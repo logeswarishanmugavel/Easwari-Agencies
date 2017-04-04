@@ -1,3 +1,4 @@
+<hr/>
 <div ng-controller = "ListCtrl" class="container">
 
         <!-- Page Heading/Breadcrumbs -->
@@ -18,7 +19,7 @@
                 <div class="list-group col-sm-6">
                     <input type = "text" class = "form-control" style = "font-size: 20px; padding: 10px" placeholder="Search By Title" ng-model="searchBox">
                     <br>
-                    <button type="button" class="list-group-item" ng-repeat = "book in books | filter:searchBox" ng-click = "getdata(book.bookid)">
+                    <button type="button" class="list-group-item" ng-repeat = "book in books | filter:searchBox | orderBy:'name' " ng-click = "getdata(book.bookid)">
                         {{ book.name }}
                     </button>
                 </div>
