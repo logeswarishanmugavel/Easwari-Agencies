@@ -13,9 +13,9 @@ angular.module('eaApp.contact', ['ngRoute'])
     console.log('inside ctct Ctrl');
     
     $scope.info = {};
-    
+    $scope.submissionSuccess = false;
+
     $scope.addInquiry = function(){
-					console.log('inside addinquiry');
 					$http({
 						method: 'POST',
 						url: '/addInquiry',
@@ -24,6 +24,8 @@ angular.module('eaApp.contact', ['ngRoute'])
 					}).then(function(response) {
 						console.log($scope.info);
 						console.log(response);
+						$scope.msghidden = true;
+						$scope.submissionSuccess = true;
 						$scope.info = {}
 					}, function(error) {
 						console.log(error);

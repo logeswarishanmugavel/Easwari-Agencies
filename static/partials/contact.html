@@ -34,7 +34,7 @@
                     <abbr title="Email">E</abbr>: <a href="mailto:easwari.agencies@gmail.com">easwari.agencies@gmail.com</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                    <abbr title="Hours">H</abbr>: Monday - Saturday: 9:00 AM to 5:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
@@ -57,45 +57,37 @@
         <div class="row">
             <div class="col-md-8">
                 <h3>Inquire us for details</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="control-group form-group required">
-                        <div class="controls">
-                            <label class = "control-label">Full Name:</label>
-                            <input type="text" class="form-control" ng-model = "info.fullname" name="fullname">
-                            <span style="color:red" ng-show="sentMessage.fullname.$dirty && sentMessage.fullname.$invalid">
-                                <span ng-show="sentMessage.fullname.$error.required">Please Enter your name</span>
-                            </span>
-                            <p class="help-block"></p>
-                        </div>
+                <br><br>   
+                <div ng-show="submissionSuccess" class="ng-show">
+                    <span class = "alert alert-success">Your message has been sent!</span>    
+                </div>
+
+                <div ng-hide="msghidden" class="ng-hide">
+                <form name="sentMessage" ng-submit="addInquiry()" novalidate>
+                    <div class="form-group" ng-class="{ 'has-error' : sentMessage.fullname.$invalid && !sentMessage.fullname.$pristine }">
+                        <label class = "control-label required">Full Name:</label>
+                        <input type="text" class="form-control" ng-model = "info.fullname" name="fullname" required>
+                        <p ng-show="sentMessage.fullname.$invalid && !sentMessage.fullname.$pristine" class="help-block">Required field</p>
                     </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label class = "control-label">Phone Number:</label>
-                            <input type="tel" class="form-control" ng-model = "info.phone" name="phone">
-                        </div>
+                    <div class="form-group">
+                        <label class = "control-label">Phone Number:</label>
+                        <input type="tel" class="form-control" ng-model = "info.phone" name="phone">
                     </div>
-                    <div class="control-group form-group required">
-                        <div class="controls">
-                            <label class = "control-label">Email Address:</label>
-                            <input type="email" class="form-control" ng-model = "info.email" name="email">
-                            <span style="color:red" ng-show="sentMessage.email.$dirty && sentMessage.email.$invalid">
-                                <span ng-show="sentMessage.email.$error.required">Please Enter your email.</span>
-                                <span ng-show="sentMessage.email.$error.email">Invalid email address.</span>
-                            </span>
-                        </div>
+                    <div class="form-group" ng-class="{ 'has-error' : sentMessage.email.$invalid && !sentMessage.email.$pristine }">
+                        <label class = "control-label required">Email Address:</label>
+                        <input type="email" class="form-control" ng-model = "info.email" name="email" required>
+                        <p ng-show="sentMessage.email.$invalid && !sentMessage.email.$pristine" class="help-block">Enter a valid email</p>
                     </div>
-                    <div class="control-group form-group required">
-                        <div class="controls">
-                            <label class = "control-label">Question</label>
-                            <textarea rows="10" cols="100" class="form-control" ng-model = "info.question" name="question" maxlength="999" style="resize:none"></textarea>
-                            <span style="color:red" ng-show="sentMessage.question.$dirty && sentMessage.question.$invalid">
-                                <span ng-show="sentMessage.question.$error.required">Please Enter your query.</span>
-                            </span>
-                        </div>
+                    <div class="form-group" ng-class="{ 'has-error' : sentMessage.question.$invalid && !sentMessage.question.$pristine }">
+                        <label class = "control-label required">Question</label>
+                        <textarea rows="10" cols="100" class="form-control" ng-model = "info.question" name="question" maxlength="999" style="resize:none" required></textarea>
+                        <p ng-show="sentMessage.question.$invalid && !sentMessage.question.$pristine" class="help-block">Required field</p>
                     </div>
-                    <div id="success"></div>
-                    <button type="submit" class="btn btn-primary" ng-disabled="sentMessage.fullname.$dirty && sentMessage.fullname.$invalid ||  sentMessage.email.$dirty && sentMessage.email.$invalid || sentMessage.question.$dirty && sentMessage.question.$invalid" ng-click="addInquiry()">Send Message</button>
+                    
+                    <button type="submit" class="btn btn-primary" style = "width:30%; font-size: 22px" ng-disabled="sentMessage.$invalid">Send Message</button>
                 </form>
+                </div>
+                <br><br>   
             </div>
 
         </div>

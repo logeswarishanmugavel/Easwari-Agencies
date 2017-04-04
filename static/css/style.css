@@ -18,11 +18,9 @@ body{
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    weight:100%;
-    margin: auto;
 }
 
-.form-group.required .control-label:after {
+.form-group .control-label.required:after {
   content:"*";
   color:red;
 }

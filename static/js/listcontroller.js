@@ -12,6 +12,7 @@ angular.module('eaApp.booklist', ['ngRoute'])
 .controller('ListCtrl', function( $scope, $http ) {
     console.log('insideCtrl');
     $scope.data = '';
+    $scope.bookdetails = false;
 
     $scope.showlist = function(){
         $http({
@@ -26,6 +27,7 @@ angular.module('eaApp.booklist', ['ngRoute'])
     }
 
     $scope.getdata = function(index){
+        $scope.bookdetails = true;
         $http({
             method: 'POST',
             url: '/getBookListData',

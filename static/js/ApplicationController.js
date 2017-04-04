@@ -11,13 +11,22 @@ angular.module('eaApp.appform', ['ngRoute'])
 
 .controller('ApplicationController', function( $scope, $http ) {
     console.log('inside appl Ctrl');
-    $scope.addapplication = function(){
+
+    $scope.info = {};
+    $scope.submissionSuccess = false;
+    
+    $scope.addApplication = function(){
         $http({
             method: 'POST',
-            url: '/addapplication',
+            url: '/addApplication',
+            data: $.param($scope.info),
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
         }).then(function(response) {
-            $scope.pubs = response.data;
-            console.log('pubs',$scope.pubs);
+            console.log($scope.info);
+            console.log(response);
+            $scope.formhidden = true;
+            $scope.submissionSuccess = true;
+            $scope.info = {};
         }, function (error) {
             console.log(error);
         });

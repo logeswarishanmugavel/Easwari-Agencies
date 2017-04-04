@@ -5,130 +5,118 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Apply to be part of ours !!!</h1>
+                <h1 class="page-header">Apply to be a part of us !!!</h1>
                 <ol class="breadcrumb">
                     <li><a href="/#/">Home</a>
                     </li>
                     <li class="active">Agency Application</li>
                 </ol>
             </div>
-        </div>            
-
-        <form name="applform" style="font-size: 20px; font-family: times ">
-            <div class = "form-group row required">
-                <label class="control-label col-sm-4 col-form-label" for="AgencyName">Agency name</label>
-                <div class="input-group col-sm-6">
+        </div>         
+        <br>
+        <br>   
+        <div ng-show="submissionSuccess" class="ng-show">
+            <span class = "alert alert-success">Your application has been submitted successfully. We will get in touch with you as soon as possible.</span>    
+        </div>
+        
+        <div ng-hide="formhidden" class="ng-hide">
+        <form name="applform" style="font-size: 20px; font-family: times " ng-submit="addApplication()" novalidate>
+            <div class = "form-group" ng-class="{ 'has-error' : applform.agencyname.$invalid && !applform.agencyname.$pristine }">
+                <label class = "control-label required">Agency name</label>
+                <div class="input-group" style="width:100%">
                     <div class="input-group-addon" style="width:10%">M/s.</div>
-                    <input class="form-control" id="AgencyName" placeholder="Enter your agency name" autocomplete="on" type="text">
-                    <span style="color:red" ng-show="applform.AgencyName.$dirty && applform.AgencyName.$invalid">
-                        <span ng-show="applform.AgencyName.$error.required">Required field</span>
-                    </span>
+                    <input type="text" class="form-control" placeholder="Enter your agency name" ng-model = "info.agencyname" name = "agencyname" required>
                 </div>
-            </div> 
-            <div class = "form-group row">
-                <label class="col-sm-4 col-form-label" for="ContactPerson">Contact person</label>
-                <div class="input-group col-sm-6">
+                <p ng-show="applform.agencyname.$invalid && !applform.agencyname.$pristine" class="help-block">Required field</p>
+            </div>
+            <div class = "form-group">
+                <label>Contact person</label>
+                <div class="input-group" style="width:100%">
                         <div class ="input-group-addon" style="width:10%; padding: 0px">
-                        <select id="mrormrs" style="width:100%">
+                        <select id="sal" style="width:100%" ng-model = "info.sal" name ="sal">
                             <option selected>...</option>
                             <option value="Mr.">Mr.</option>
                             <option value="Mrs.">Mrs.</option>
                             <option value="Ms.">Ms.</option>
                         </select>
                         </div>
-                        <input class="form-control" id="ContactPerson" placeholder="Enter contact person name" autocomplete="on" type="text">
+                        <input type="text" class="form-control" placeholder="Enter contact person name" ng-model = "info.contactperson" name="contactperson">
                 </div>
             </div> 
-            <div class = "form-group row required">
-                <label class="control-label col-sm-4 col-form-label" for="AgencyArea">Agency area</label>
-                <div class="input-group col-sm-6">
-                    <input class="form-control" id="AgencyArea" placeholder="Enter your prefered area" autocomplete="on" type="text">
-                    <span style="color:red" ng-show="applform.AgencyArea.$dirty && applform.AgencyArea.$invalid">
-                        <span ng-show="applform.AgencyArea.$error.required">Required field</span>
-                    </span>
-                </div>
+            <div class = "form-group" ng-class="{ 'has-error' : applform.agencyarea.$invalid && !applform.agencyarea.$pristine }">
+                <label class = "control-label required">Agency area</label>
+                <input type="text" class="form-control" placeholder="Enter your prefered area" ng-model = "info.agencyarea" name = "agencyarea" required> 
+                <p ng-show="applform.agencyarea.$invalid && !applform.agencyarea.$pristine" class="help-block">Required field</p>
             </div> 
-            <div class="form-group row">
-                <label for="Address" class ="col-form-label col-sm-4">Address</label>
-                <div class="input-group col-sm-6">
-                    <textarea class="form-control" id="Address" placeholder="Enter your address" rows="3"></textarea>
-                </div>
+            <div class="form-group">
+                <label>Address</label>
+                <textarea class="form-control" placeholder="Enter your address" rows="3" ng-model = "info.address" name = "address"></textarea>
             </div>
-            <div class="form-group row">
-                <label for="City" class ="control-label col-form-label col-sm-4">City</label>
-                <div class="input-group col-sm-6">
-                    <select class="custom-select" id="cityselect">
-                            <option selected>Select...</option>
-                            <option value="Ariyalur">Ariyalur</option>
-                            <option value="Chennai">Chennai</option>
-                            <option value="Coimbatore">Coimbatore</option>
-                            <option value="Cuddalore">Cuddalore</option>
-                            <option value="Dharmapuri">Dharmapuri</option>
-                            <option value="Dindigul">Dindigul</option>
-                            <option value="Erode">Erode</option>
-                            <option value="Kanchipuram">Kanchipuram</option>
-                            <option value="Kanyakumari">Kanyakumari</option>
-                            <option value="Karur">Karur</option>
-                            <option value="Krishnagiri">Krishnagiri</option>
-                            <option value="Madurai">Madurai</option>
-                            <option value="Mandapam">Mandapam</option>
-                            <option value="Nagapattinam">Nagapattinam</option>
-                            <option value="Nilgiris">Nilgiris</option>
-                            <option value="Namakkal">Namakkal</option>
-                            <option value="Perambalur">Perambalur</option>
-                            <option value="Pudukkottai">Pudukkottai</option>
-                            <option value="Ramanathapuram">Ramanathapuram</option>
-                            <option value="Salem">Salem</option>
-                            <option value="Sivaganga">Sivaganga</option>
-                            <option value="Thanjavur">Thanjavur</option>
-                            <option value="Thiruvallur">Thiruvallur</option>
-                            <option value="Tirupur">Tirupur</option>
-                            <option value="Tiruchirapalli">Tiruchirapalli</option>
-                            <option value="Theni">Theni</option>
-                            <option value="Tirunelveli">Tirunelveli</option>
-                            <option value="Thanjavur">Thanjavur</option>
-                            <option value="Thoothukudi">Thoothukudi</option>
-                            <option value="Tiruvallur">Tiruvallur</option>
-                            <option value="Tiruvannamalai">Tiruvannamalai</option>
-                            <option value="Vellore">Vellore</option>
-                            <option value="Villupuram">Villupuram</option>
-                            <option value="Viruthunagar">Viruthunagar</option>
-                        </select>
-                </div>
+            <div class="form-group">
+                <label>City</label>
+                <select class="custom-select" ng-model = "info.city" name="city" style="width:100%">
+                    <option value="Ariyalur">Ariyalur</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Cuddalore">Cuddalore</option>
+                    <option value="Dharmapuri">Dharmapuri</option>
+                    <option value="Dindigul">Dindigul</option>
+                    <option value="Erode">Erode</option>
+                    <option value="Kanchipuram">Kanchipuram</option>
+                    <option value="Kanyakumari">Kanyakumari</option>
+                    <option value="Karur">Karur</option>
+                    <option value="Krishnagiri">Krishnagiri</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Mandapam">Mandapam</option>
+                    <option value="Nagapattinam">Nagapattinam</option>
+                    <option value="Nilgiris">Nilgiris</option>
+                    <option value="Namakkal">Namakkal</option>
+                    <option value="Perambalur">Perambalur</option>
+                    <option value="Pudukkottai">Pudukkottai</option>
+                    <option value="Ramanathapuram">Ramanathapuram</option>
+                    <option value="Salem">Salem</option>
+                    <option value="Sivaganga">Sivaganga</option>
+                    <option value="Thanjavur">Thanjavur</option>
+                    <option value="Thiruvallur">Thiruvallur</option>
+                    <option value="Tirupur">Tirupur</option>
+                    <option value="Tiruchirapalli">Tiruchirapalli</option>
+                    <option value="Theni">Theni</option>
+                    <option value="Tirunelveli">Tirunelveli</option>
+                    <option value="Thanjavur">Thanjavur</option>
+                    <option value="Thoothukudi">Thoothukudi</option>
+                    <option value="Tiruvallur">Tiruvallur</option>
+                    <option value="Tiruvannamalai">Tiruvannamalai</option>
+                    <option value="Vellore">Vellore</option>
+                    <option value="Villupuram">Villupuram</option>
+                    <option value="Viruthunagar">Viruthunagar</option>
+                </select>
             </div>
-            <div class = "form-group row">
-                <label class="control-label col-sm-4 col-form-label" for="State">State</label>
-                <div class="input-group col-sm-6">
-                    <select class="custom-select" id="stateselect">
-                            <option selected>Select...</option>
-                            <option value="Tamil Nadu">Tamil Nadu</option>
-                            <option value="Pondicherry">Ponducherry</option>
-                    </select>
-                </div>
+            <div class = "form-group">
+                <label>State</label>
+                <select class="custom-select" ng-model = "info.state" name="state" style="width:100%">
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Pondicherry">Ponducherry</option>
+                </select>
             </div> 
-            <div class = "form-group row">
-                <small class="col-sm-4"></small>
-                <small id="stateHelp" class="form-text text-muted col-sm-8" style="font-size: 15px;"">We are currently only open for Tamil Nadu and Pondicherry locations.</small>
+            <div class = "form-group">
+                <small class="form-text text-muted" style="font-size: 15px;"">We are currently only open for Tamil Nadu and Pondicherry locations.</small>
             </div>
-            <div class="form-group row required">
-                <label class = "control-label col-sm-4 col-form-label" for="phone">Phone Number:</label>
-                <div class="input-group col-sm-6">
-                    <input id = "phone" type="tel" class="form-control" ng-model = "info.phone" name="phone">
-                    <span style="color:red" ng-show="applform.phone.$dirty && applform.phone.$invalid">
-                        <span ng-show="applform.phone.$error.required">Required field</span>
-                    </span>
-                </div>
+            <div class="form-group">
+                <label>Pincode</label>
+                <input type="tel" class="form-control" ng-model = "info.pincode" name="pincode" placeholder="Enter pincode">
             </div>
-            <div class="form-group row required">
-                <label class = "control-label col-sm-4 col-form-label" for="email">Email Address:</label>
-                <div class="input-group col-sm-6">
-                    <input type="email" class="form-control" ng-model = "info.email" id="email">
-                    <span style="color:red" ng-show="applform.email.$dirty && applform.email.$invalid">
-                        <span ng-show="applform.email.$error.required">Required field</span>
-                        <span ng-show="applform.email.$error.email">Invalid email address.</span>
-                    </span>
-                </div>
+            <div class="form-group" ng-class="{ 'has-error' : applform.phone.$invalid && !applform.phone.$pristine }">
+                <label class = "control-label required">Phone Number</label>
+                <input type="tel" class="form-control" ng-model = "info.phone" name="phone" placeholder="Enter your phone number" required>
+                <p ng-show="applform.phone.$invalid && !applform.phone.$pristine" class="help-block">Required field</p>   
             </div>
-            <button type="submit" class="btn btn-primary" style = "width:10%; font-size: 22px">Submit</button>
+            <div class="form-group" ng-class="{ 'has-error' : applform.email.$invalid && !applform.email.$pristine }">
+                <label>Email Address</label>
+                <input type="email" class="form-control" ng-model = "info.email" name="email" placeholder="Enter your email">
+                <p ng-show="applform.email.$invalid && !applform.email.$pristine" class="help-block">Enter a valid email</p>       
+            </div>
+            <button type="submit" class="btn btn-primary" style = "width:10%; font-size: 22px" ng-disabled="applform.$invalid">Submit</button>
         </form>  
+        </div>
+        <br><br>
 </div>

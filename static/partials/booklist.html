@@ -1,4 +1,4 @@
-<div ng-controller = "ListCtrl">
+<div ng-controller = "ListCtrl" class="container">
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
@@ -23,7 +23,7 @@
                     </button>
                 </div>
 
-                <div class="col-sm-6" style="padding-left: 25px">
+                <div class="col-sm-6" style="padding-left: 25px" ng-show="bookdetails">
                     <div class = "row">
                         <img src = "{{data.photo}}"><h1> Rs. {{ data.price }} /- </h1></img>
                     </div>
